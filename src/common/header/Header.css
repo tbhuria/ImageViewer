@@ -1,15 +1,37 @@
 .app-header {
     background-color: #263238;
-    height: 32px;
-    
-}
-
-
-.side-logo{
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .side-logo {
     color: #fff;
-    height:  18px;
-    vertical-align: middle;
-    padding: 10px;
-    
-}
+    font-size: 18px;
+    float: left;
+  }
+  
+  .formInput {
+    margin-right: 40px;
+  }
+  
+  .header-searchbox {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color: #c0c0c0;
+    border-radius: 4px;
+  }
+  
+  .header-searchbox-off {
+    margin-left: auto;
+  }
+  
+  .horizontal-line {
+    border-bottom: groove;
+    width: 80%;
+    margin-left: 10%;
+  }
   
